@@ -1,6 +1,6 @@
 import MateriCRUD from "./materiCRUD"
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './app.css'
+// import './app.css'
 
 function App() {
 
