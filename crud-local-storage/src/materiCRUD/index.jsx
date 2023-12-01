@@ -50,7 +50,10 @@ const MateriCRUD = () => {
                                         <td>{index + 1}</td>
                                         <td>{course.title}</td>
                                         <td>{course.description}</td>
-                                        <td>-</td>
+                                        <td>
+                                            <Button variant="warning">Edit</Button>
+                                            <Button variant="danger">Delete</Button>
+                                        </td>
                                     </tr>
                                 );
                             })}
